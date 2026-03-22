@@ -1,13 +1,13 @@
 class Gocryptic < Formula
   desc "A feature-rich cryptographic CLI toolkit"
   homepage "https://github.com/JonathanInTheClouds/gocryptic"
-  version "1.2.0"
+  version "1.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/JonathanInTheClouds/gocryptic/releases/download/v1.2.0/gocryptic-darwin-arm64"
-      sha256 "f09edd57d3e75e3af63577494bcb54e4f3885296306f84e96f3b7abf620505fe"
+      url "https://github.com/JonathanInTheClouds/gocryptic/releases/download/v1.2.1/gocryptic-darwin-arm64"
+      sha256 "ff6c31d3ced783214c004b4edfa341b9873b003b52ca404549abdf1bfd65cadf"
 
       def install
         bin.install "gocryptic-darwin-arm64" => "gocryptic"
@@ -15,8 +15,8 @@ class Gocryptic < Formula
     end
 
     on_intel do
-      url "https://github.com/JonathanInTheClouds/gocryptic/releases/download/v1.2.0/gocryptic-darwin-amd64"
-      sha256 "698fc4dbd8540711acf88ba5b7a8d8cc18a8a8719d934e46626bdfcf4193e5be"
+      url "https://github.com/JonathanInTheClouds/gocryptic/releases/download/v1.2.1/gocryptic-darwin-amd64"
+      sha256 "81ab30ec91aa0b4c8b626a499f493524e1b3a8b63aed07e87c2adbbebf0f755c"
 
       def install
         bin.install "gocryptic-darwin-amd64" => "gocryptic"
