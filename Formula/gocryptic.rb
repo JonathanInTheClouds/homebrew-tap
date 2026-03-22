@@ -11,7 +11,6 @@ class Gocryptic < Formula
 
       def install
         bin.install "gocryptic-darwin-arm64" => "gocryptic"
-        generate_completions_from_executable(bin/"gocryptic", "completion")
       end
     end
 
@@ -21,7 +20,6 @@ class Gocryptic < Formula
 
       def install
         bin.install "gocryptic-darwin-amd64" => "gocryptic"
-        generate_completions_from_executable(bin/"gocryptic", "completion")
       end
     end
   end
