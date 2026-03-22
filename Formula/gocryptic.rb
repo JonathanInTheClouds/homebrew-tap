@@ -32,8 +32,8 @@ class Gocryptic < Formula
     pt = shell_output("#{bin}/gocryptic decrypt --input '#{ct}' --key 'testpassword'").strip
     assert_equal "brew test", pt
 
-    # Hash check against known SHA-256 of empty string
-    hash = shell_output("#{bin}/gocryptic hash --input ''").split[1]
-    assert_equal "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", hash
+    # Hash check against known SHA-256 of "hello"
+    hash = shell_output("#{bin}/gocryptic hash --input 'hello'").split[1]
+    assert_equal "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824", hash
   end
 end
