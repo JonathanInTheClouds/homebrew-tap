@@ -7,11 +7,11 @@ class Govault < Formula
   on_macos do
     on_arm do
       url "https://github.com/JonathanInTheClouds/govault/releases/download/v0.4.0/govault-darwin-arm64"
-      sha256 "PLACEHOLDER_ARM64_SHA256"
+      sha256 "c85eabdb55aa7c2e9c97d39efe3e7caa8d2fff3a4e825d2622f85f2cf681e01f"
 
       resource "menubar" do
         url "https://github.com/JonathanInTheClouds/govault/releases/download/v0.4.0/govault-menubar-darwin-arm64"
-        sha256 "PLACEHOLDER_MENUBAR_ARM64_SHA256"
+        sha256 "e6327fce626016cc0c015ccad00b7c77b2572d383c2255b1cf91b801f7fbf6a3"
       end
 
       def install
@@ -25,11 +25,11 @@ class Govault < Formula
 
     on_intel do
       url "https://github.com/JonathanInTheClouds/govault/releases/download/v0.4.0/govault-darwin-amd64"
-      sha256 "PLACEHOLDER_AMD64_SHA256"
+      sha256 "62f709e683a7206bc64b3e8e67f26a3d7cc0203c060aced25f5fb4d1d3375ff3"
 
       resource "menubar" do
         url "https://github.com/JonathanInTheClouds/govault/releases/download/v0.4.0/govault-menubar-darwin-amd64"
-        sha256 "PLACEHOLDER_MENUBAR_AMD64_SHA256"
+        sha256 "a369e1057a032dc4838c7db013e632f0f4753bcd86ff7f6b662d754a681aadec"
       end
 
       def install
