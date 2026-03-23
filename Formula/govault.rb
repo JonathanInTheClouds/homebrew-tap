@@ -1,17 +1,17 @@
 class Govault < Formula
   desc "A secure, encrypted password manager for the terminal"
   homepage "https://github.com/JonathanInTheClouds/govault"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/JonathanInTheClouds/govault/releases/download/v0.4.0/govault-darwin-arm64"
-      sha256 "c85eabdb55aa7c2e9c97d39efe3e7caa8d2fff3a4e825d2622f85f2cf681e01f"
+      url "https://github.com/JonathanInTheClouds/govault/releases/download/v0.4.1/govault-darwin-arm64"
+      sha256 "8d5f99687235673a38fd0d0ff944b8dc750680c61f4dcdc636b6cefcbe882d7b"
 
       resource "menubar" do
-        url "https://github.com/JonathanInTheClouds/govault/releases/download/v0.4.0/govault-menubar-darwin-arm64"
-        sha256 "e6327fce626016cc0c015ccad00b7c77b2572d383c2255b1cf91b801f7fbf6a3"
+        url "https://github.com/JonathanInTheClouds/govault/releases/download/v0.4.1/govault-menubar-darwin-arm64"
+        sha256 "ac2f15b4ee949d3c672be14f26fcb3f338fa0801aa898f35d2818c6cdca7b6ec"
       end
 
       def install
@@ -24,12 +24,12 @@ class Govault < Formula
     end
 
     on_intel do
-      url "https://github.com/JonathanInTheClouds/govault/releases/download/v0.4.0/govault-darwin-amd64"
-      sha256 "62f709e683a7206bc64b3e8e67f26a3d7cc0203c060aced25f5fb4d1d3375ff3"
+      url "https://github.com/JonathanInTheClouds/govault/releases/download/v0.4.1/govault-darwin-amd64"
+      sha256 "09f97e8bc64a505296789d310e0e4c3db883b5b4396ab9dfee4b21f269236a48"
 
       resource "menubar" do
-        url "https://github.com/JonathanInTheClouds/govault/releases/download/v0.4.0/govault-menubar-darwin-amd64"
-        sha256 "a369e1057a032dc4838c7db013e632f0f4753bcd86ff7f6b662d754a681aadec"
+        url "https://github.com/JonathanInTheClouds/govault/releases/download/v0.4.1/govault-menubar-darwin-amd64"
+        sha256 "8e9a2c5a52f855642b0b310a9acf0c04feb93ae59e46774a8e65afd4d10f769f"
       end
 
       def install
